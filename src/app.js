@@ -61,8 +61,9 @@ const buildPlayers = (players, type) => {
              <div class="name">${num.name}</div>
             <div class="strength">${num.strength}</div>
             </div>`
+        console.log(player);
         if (num.type == type) {
-            fragement += player;
+            fragment += player;
         }
     });
 
